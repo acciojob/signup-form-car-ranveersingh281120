@@ -14,8 +14,15 @@
       <input type="radio" id="gender_m" name="gender"  required>male
       <input type="radio" id="gender_f" name="gender"  required>female
       </label><br><br>
-      <label for="cars">Car Brands</label>
-      <input  type="select" id="cars" name="cars" placeholder="--Please choose an option--"  required >  <br><br>
+<label for="cars">Car Brands</label>
+<select id="cars" name="cars" required>
+  <option value="">--Please choose an option--</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+<br><br>		   
       <label for="age">Age</label>
       <input type="Number" id="age" name="name" placeholder="Age" required><br><br>
       <label for="dob">DOB</label>
@@ -26,7 +33,7 @@
       <input type="password" id="password"  name="password" placeholder="Password" required ><br><br>
       <label for="tos">I agree to the TOS</label>
       <input type="checkbox" id="tos"  name="tos" required  ><br><br>
-	  <button>submit</button>
+	 <button type="submit">submit</button>
 		</form>
       <script type="text/javascript" src="./script.js"></script>
    </body>
